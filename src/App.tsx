@@ -1,5 +1,5 @@
 import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion';
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 
 function App() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
